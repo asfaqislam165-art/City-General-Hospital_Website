@@ -1,0 +1,240 @@
+body{
+    background-color: rgb(4, 200, 207);
+    padding-top: 80px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.welcome{
+    color:white;
+    text-align:center;
+    text-shadow:red 2px 2px 3px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:55px;
+    transition: text-shadow 0.3s ease;
+}
+
+.welcome:hover{
+    text-shadow:blue 2px 3px ;
+}
+
+#one{
+    height:300px;
+    max-width:120%;
+    margin:auto;
+    border-radius:10px;
+    display:block;
+    transition: transform 0.3s ease;
+}
+
+#one:hover {
+    transform: scale(1.02);
+}
+
+.btn1{
+    border:1px solid white;
+    background-color:blue;
+    border-radius:10px;
+    margin:auto;
+    color:white;
+    display:block;
+    width:fit-content;
+    height:fit-content;
+    padding:10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn1:hover{
+    border:1px solid yellow;
+    background-color:red;
+    transform: translateY(-2px);
+}
+
+.click{
+    color:white;
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:block;
+    height:auto;
+    text-align:center;
+}
+
+.box{
+    border:2px solid white;
+    width:90%;
+    max-width:1250px;
+    margin:auto;
+    display:block;
+    border-radius:10px;
+    height:60px;
+    background-color:black;
+    transition: all 0.3s ease;
+}
+
+.box:hover{
+    border:2px solid yellow;
+    background-color: red;
+    transform: translateY(-2px);
+}
+
+.about{
+    color:white;
+    text-align: center;
+}
+
+.about-cards{
+    color:white;
+}
+
+.about-mission{
+    color:white;
+    background-color:black;
+    text-align:center;
+    border:2px solid white;
+    width:600px;
+    max-width: 90%;
+    margin:auto;
+    border-radius:10px;
+    transition: all 0.3s ease;
+}
+
+.about-mission:hover{
+    background-color:red;
+    border:2px solid yellow;
+    transform: translateY(-2px);
+}
+
+.about-vision{
+    background-color:black;
+    border-radius:10px;
+    text-align:center;
+    border:2px solid white;
+    color:white;
+    width:600px;
+    max-width: 90%;
+    margin:auto;
+    transition: all 0.3s ease;
+}
+
+.about-vision:hover{
+    background-color:red;
+    border:2px solid yellow;
+    transform: translateY(-2px);
+}
+
+.border{
+    background-color:black;
+    border-radius:10px;
+    transition: background-color 0.3s ease;
+} 
+
+.border:hover{
+    background-color:red;
+}
+
+.doctor-card{
+    display:block;
+    text-align: center;
+    color:white;
+}
+
+.doctor-card2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    flex-wrap: wrap;
+}
+
+.doctor-card3{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    flex-wrap: wrap;
+}
+
+.pagination{
+    justify-content:center;
+}
+
+.department-title{
+    text-align:center;
+    color:white;
+}
+
+.appo1{
+    text-align: center;
+    color:white;
+}
+
+.appo2{
+    color:white;
+    background-color:black;
+    margin:20px;
+    width:fit-content;
+    display:block;
+    margin:auto;
+    justify-content:center;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.appo2:hover{
+    background-color:red;
+    transform: scale(1.05);
+}
+
+.patients-condition{
+    margin-left:24px;
+}
+
+.form{
+    width:400px;
+    max-width: 90%;
+    display:block;
+    margin:auto;
+    margin:20px auto;
+    height:auto;
+    justify-content:center;
+}
+
+.form>h4{
+    text-align:center;
+    justify-content:center;
+}
+
+.btn{
+    display:block;
+    margin:auto;
+}
+
+.contract{
+    margin:auto;
+    text-align:center;
+    align-items:center;
+}
+
+#contract-image{
+    height:fit-content;
+    transition: all 0.3s ease;
+}
+
+#contract-image:hover{
+    border:2px solid yellow;
+    width:fit-content;
+    margin:auto;
+}
+
+.contractall{
+    border-radius: 20px;
+}
+
+.card-body{
+    transition: text-shadow 0.3s ease;
+}
+
+.card-body:hover{
+    text-shadow:blue 1px 1px ;
+}
